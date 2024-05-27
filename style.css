@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+
+body {
+  height: 100vh;
+  background-color: #d6db95;
+  font-family: "Poppins", sans-serif;
+}
+/* .container{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+.container_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px;
+  padding: 20px;
+}
+
+.container_wrapper p{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.container_wrapper .btn_again{
+    height: 30px;
+    width: 75px;
+    border: none;
+    border-radius: 5px;
+    background-color: burlywood;
+    font-weight: 600;
+}
+
+.container_wrapper .btn_again:hover{
+    background-color: cyan;
+}
+
+.container .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container .info h2{
+   
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.container .info .hide_num{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 200px;
+    height: 2.2rem;
+    font-size: 2rem;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: rgb(239, 115, 101);
+
+} 
+
+.number_data{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* width: 200px;
+    margin-top: 50px;
+    padding: 30px; */
+
+}
+.number_data form{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 50px;
+    padding: 30px;
+
+}
+
+.number_data form input{
+    border: none;
+    color: rgb(73, 22, 201);
+    background-color: rgb(255, 255, 255);
+    font-weight: 600px;
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor:text;
+    
+}
+.number_data form button{
+    width: 60px;
+    font-size: 15px;
+    margin-left: 60px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.number_data form button:hover{
+    background-color: aquamarine;
+
+}
+
+.number_data .content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    font-size: 1.2rem;
+}
